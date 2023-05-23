@@ -146,6 +146,14 @@ public interface NMS {
      */
     ItemStack addNBTTag(ItemStack itemStack, String key, String value);
 
+    /**
+     * Apply a Base64 encoded skin texture to a player skull ItemStack.
+     * @param itemStack ItemStack to apply the skin to.
+     * @param base64Skin {@link String} Base64 encoded skin texture.
+     * @return ItemStack with the applied skin texture.
+     */
+    ItemStack applySkullToSkin(ItemStack itemStack, String base64Skin);
+
     void setItemStackClass(Class<?> itemStackClass);
 
     void setHasTag(Method hasTag);

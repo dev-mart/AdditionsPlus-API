@@ -419,4 +419,16 @@ public interface AdditionsItem {
      */
     void setPotionType(String type);
 
+    /**
+     * Get the skin data.
+     * @return Skin data.
+     */
+    String getSkinData();
+
+    /**
+     * Set the skin data.
+     * @param skinData Skin data.
+     */
+    void setSkinData(String skinData);
+
 }
