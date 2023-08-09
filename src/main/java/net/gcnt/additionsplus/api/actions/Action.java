@@ -56,7 +56,7 @@ public enum Action {
     VANISH(new ArrayList<>(), ActionType.NORMAL, true, true),
 
     TARGETWORLD(new ArrayList<>(), ActionType.INNER, false, false),
-    RESOUREPACK(Lists.newArrayList("TEXTUREPACK"), ActionType.NORMAL, true, true),
+    RESOURCEPACK(Lists.newArrayList("TEXTUREPACK"), ActionType.NORMAL, true, true),
 
     NOPERMISSION(new ArrayList<>(), ActionType.INNER, false, false),
     NOVGROUP(Lists.newArrayList("NOVAULTGROUP"), ActionType.INNER, true, false),
